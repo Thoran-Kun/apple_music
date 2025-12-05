@@ -40,7 +40,6 @@ function Explore() {
 
   return (
     <section className="mt-5 mb-4 px-3">
-      {" "}
       <h2 className="section-title mb-3 text-white">Altro da esplorare</h2>
       <Row className="g-3">
         {EXPLORE_ITEMS.map((label) => (
