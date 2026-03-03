@@ -7,7 +7,7 @@ import MainContent from "./MainContent"
 function App() {
   return (
     <>
-      <MyNavbar />
+      {/* <MyNavbar /> */}
       <Container fluid>
         <Row>
           <Col md={3} className="d-none d-md-block bg-dark text-white">
