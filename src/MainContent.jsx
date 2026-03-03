@@ -5,13 +5,13 @@ import RadioEpisode from "./components/RadioEpisode"
 import NewRelease from "./components/NewRelease"
 import Explore from "./components/Explore"
 import Footer from "./components/Footer"
-import MyNavbar2 from "./components/MyNavbar2"
+import MyNavbar from "./components/MyNavbar"
 
 function MainContent() {
   return (
     <>
       <div className="bg-dark min-vh-100">
-        <MyNavbar2 />
+        <MyNavbar />
 
         <h1 className="text-white my-5 pb-2 ps-2">Novità</h1>
         <Container className="text-white">

@@ -1,5 +1,5 @@
 import "./App.css"
-import MyNavbar from "./components/MyNavbar"
+import MyNavbar from "./components/MyNavbar.jsx"
 import { Container, Row, Col } from "react-bootstrap"
 import LeftNav from "./components/LeftNav"
 import MainContent from "./MainContent"
@@ -7,6 +7,7 @@ import MainContent from "./MainContent"
 function App() {
   return (
     <>
+      <MyNavbar />
       <Container fluid>
         <Row>
           <Col md={3} className="d-none d-md-block bg-dark text-white">
